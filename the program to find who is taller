@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    float personA=5.2;
+    float personB=5.8;
+    if(personA>personB)
+    printf("personA is taller...");
+    else
+    printf("personB is taller...");
+    return 0;
+    
+}

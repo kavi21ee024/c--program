@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+int num=7;
+printf("program starts...\n");
+if(num<5)
+{
+    printf("kavi");
+}
+printf("program ends...\n");
+}

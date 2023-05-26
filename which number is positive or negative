@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int num=15;
+    if(num<0)
+    {
+        printf("the given num is positive");
+    }
+    else
+    {
+        printf("the given num is negative");
+    }
+    }

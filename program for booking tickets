@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int age=12;
+    if(age<=12)
+    {
+        printf("you book for child ticket\n");
+    }
+    else if(age>13 && age<60)
+    {
+        printf("you book for normal ticket\n");
+    }
+    else
+    {
+        printf("you book for senior ticket\n");
+    }
+    printf("have a safe journey");
+    }
+

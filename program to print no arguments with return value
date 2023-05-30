@@ -1,0 +1,19 @@
+#include<stdio.h>
+int greatnum();
+int main()
+{
+    int a=greatnum();
+    printf("%d",a);
+}
+int greatnum()
+{
+    int x,y,greatnum;
+    printf("enter the values:\n");
+    scanf("%d%d",&x,&y);
+    if(x>y)
+    greatnum=x;
+    else
+    greatnum=y;
+    return greatnum;
+
+}
